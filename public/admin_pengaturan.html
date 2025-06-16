@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin_Postingan</title>
+    <title>admin_pengaturan</title>
     <link rel="stylesheet" href="css/output.css">
 </head>
 <body class="bg-white text-slate-50">
@@ -27,28 +27,28 @@
                     </div> 
                     Pengguna
                   </a>
-                  <a href="admin_postingan.html" class="flex items-center gap-2 p-2 mt-2 rounded-lg bg-white text-gray-800 font-semibold">
+                  <a href="admin_postingan.html" class="flex items-center gap-2 p-2 mt-2 group hover:bg-white/50 hover:text-gray-800 rounded-lg transition">
                     <div>
-                        <img src="../asset/kirim.png" alt="postingan" class="w-6 h-6">
+                        <img src="../asset/kirim.png" alt="postingan" class="w-6 h-6 filter invert brightness-0 group-hover:invert-0 group-hover:brightness-100 transition-all">
                     </div> 
                     Postingan
                   </a>
                 </nav>
             </div>
             <div class="mb-2">
-                <a href="admin_pengaturan.html" class="flex items-center gap-2 p-2 group hover:bg-white/50 hover:text-gray-800 rounded-lg transition">
-                    <div>
-                        <img src="../asset/pengaturan.png" alt="pengaturan" class="w-6 h-6 filter invert brightness-0 group-hover:invert-0 group-hover:brightness-100 transition-all">
+                <a href="admin_pengaturan.html" class="flex items-center gap-2 p-2 rounded-lg bg-white text-gray-800 font-semibold">
+                    <div> 
+                        <img src="../asset/pengaturan.png" alt="pengaturan" class="w-6 h-6">
                     </div>
                   Pengaturan
                 </a>
                 <a href="#" class="flex items-center gap-2 p-2 mt-2 group hover:bg-white/50 hover:text-gray-800 rounded-lg transition">
                   <div>
-                      <img src="../asset/keluar.png" alt="keluar" class="w-6 h-6 filter invert brightness-0 group-hover:invert-0 group-hover:brightness-100 transition-all">
-                  </div>
-                Keluar
-              </a>
-              </div>
+                      <img src="../asset/keluar.png" alt="keluar" class="w-6 h-6 filter invert brightness-0 group-hover:invert-0 group-hover:brightness-100 transition-all">   
+                  </div> 
+                  Keluar
+                </a>
+            </div>
         </aside>
 
         <main class="flex-1 bg-white p-4">
@@ -58,7 +58,7 @@
                 <input type="text" placeholder="Cari disini . . . ."  class="w-1/2 p-1 pl-10 rounded-full bg-sky-200 placeholder-slate-950 focus:outline-none">
               </div>
               <div class="flex items-center gap-2">
-                <button class="p-1 rounded-full border border-slate-950">
+                <button class="p-1 rounded-full border-1 border-slate-950">
                   <img src="../asset/peringatan.png" alt="peringatan" class="w-6 h-6">
                 </button>
                 <div class="bg-sky-200 px-3 py-1 rounded-full text-sm font-semibold">
@@ -73,30 +73,5 @@
             </div>
 
             <hr class="my-4 border-t-4 text-sky-800">
-
-            <div class="grid grid-cols-1">
-              <div class="border rounded-lg p-4 border-sky-800">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
-                  <a href="admin_postingan_beritainformasi.html" class="w-full h-10 bg-sky-200 rounded-lg p-2 hover:bg-sky-300 transition duration-200 block">
-                    <span class="text-slate-950 font-semibold block">+Berita dan Informasi</span>
-                  </a>
-                  <a href="admin_postingan_profildesa.html" class="w-full h-10 bg-sky-200 rounded-lg p-2 hover:bg-sky-300 transition duration-200 block">
-                    <span class="text-slate-950 font-semibold block">+Profil Desa</span>
-                  </a>
-                </div>
-            
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-5">
-                  <a href="admin_postingan_keuangan.html" class="w-full h-10 bg-sky-200 rounded-lg p-2 hover:bg-sky-300 transition duration-200 block">
-                    <span class="text-slate-950 font-semibold block">+Keuangan</span>
-                  </a>  
-                  <a href="admin_postingan_demografi.html" class="w-full h-10 bg-sky-200 rounded-lg p-2 hover:bg-sky-300 transition duration-200 block">
-                    <span class="text-slate-950 font-semibold block">+Demografi</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-     
-        </main>        
-    </div>
 </body>
 </html>

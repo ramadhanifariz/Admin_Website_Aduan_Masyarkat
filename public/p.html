@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengaturan Admin</title>
+  <link href="css/output.css" rel="stylesheet">
+</head>
+<body class="bg-sky-50 text-gray-800 p-6">
+
+  <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 space-y-6">
+    <h1 class="text-2xl font-bold text-sky-800">Pengaturan Admin</h1>
+
+    <!-- Pengaturan Akun -->
+    <div>
+      <h2 class="text-lg font-semibold mb-2">Akun Admin</h2>
+      <form class="space-y-4">
+        <div>
+          <label class="block font-medium">Nama</label>
+          <input type="text" class="w-full p-2 border rounded-md" value="Windah Baturingan">
+        </div>
+        <div>
+          <label class="block font-medium">Email</label>
+          <input type="email" class="w-full p-2 border rounded-md" value="admin@email.com">
+        </div>
+        <div>
+          <label class="block font-medium">Password Baru</label>
+          <input type="password" class="w-full p-2 border rounded-md" placeholder="•••••••••">
+        </div>
+        <button type="submit" class="bg-sky-600 text-white px-4 py-2 rounded-md hover:bg-sky-700 transition">Simpan Perubahan</button>
+      </form>
+    </div>
+
+    <hr class="border-gray-300">
+
+    <!-- Pengaturan Tampilan -->
+    <div>
+      <h2 class="text-lg font-semibold mb-2">Tampilan Aplikasi</h2>
+      <form class="space-y-4">
+        <div>
+          <label class="block font-medium">Tema</label>
+          <select class="w-full p-2 border rounded-md">
+            <option>Terang</option>
+            <option>Gelap</option>
+            <option>Otomatis</option>
+          </select>
+        </div>
+        <div>
+          <label class="block font-medium">Warna Utama</label>
+          <input type="color" class="w-16 h-10 border p-1 rounded-md" value="#0284c7">
+        </div>
+        <button class="bg-sky-600 text-white px-4 py-2 rounded-md hover:bg-sky-700 transition">Simpan Tampilan</button>
+      </form>
+    </div>
+
+    <hr class="border-gray-300">
+
+    <!-- Pengaturan Sistem -->
+    <div>
+      <h2 class="text-lg font-semibold mb-2">Sistem</h2>
+      <form class="space-y-4">
+        <div>
+          <label class="block font-medium">Nama Aplikasi</label>
+          <input type="text" class="w-full p-2 border rounded-md" value="Sistem Aduan Masyarakat">
+        </div>
+        <div>
+          <label class="block font-medium">Logo Aplikasi</label>
+          <input type="file" class="w-full p-2 border rounded-md">
+        </div>
+        <button class="bg-sky-600 text-white px-4 py-2 rounded-md hover:bg-sky-700 transition">Simpan Sistem</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
