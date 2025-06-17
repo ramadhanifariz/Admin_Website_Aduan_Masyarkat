@@ -13,7 +13,7 @@
         <h1 class="text-xl font-semibold my-2 text-center">Admin Konoha</h1>
         <hr class="my-4 border-t-3">
         <nav class="mt-4">
-          <a href="admin_beranda.html" class="flex items-center gap-2 p-2 group hover:bg-white/50 hover:text-slate-800 rounded-lg transition">   
+          <a href="admin_beranda.html" class="flex items-center gap-2 p-2 rounded-lg bg-white text-gray-800 font-semibold">   
             <div class="w-5 h-5">
               <i class="fas fa-home"></i>
             </div>               
@@ -25,22 +25,28 @@
             </div>
             Pengguna
           </a>
-          <a href="admin_postingan.html" class="flex items-center gap-2 p-2 mt-2 group hover:bg-white/50 hover:text-slate-800 rounded-lg transition">
+          <a href="admin_postingan_beritainformasi.html" class="flex items-center gap-2 p-2 mt-2 group hover:bg-white/50 hover:text-slate-800 rounded-lg transition">
             <div class="w-5 h-5">
               <i class="fa-solid fa-paper-plane"></i>
             </div>
-            Postingan
+            Berita dan Informasi
+          </a>
+          <a href="admin_postingan_profildesa.html" class="flex items-center gap-2 p-2 mt-2 group hover:bg-white/50 hover:text-slate-800 rounded-lg transition">
+            <div class="w-5 h-5">
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+            Profil Desa
+          </a>
+          <a href="admin_postingan_kategori.html" class="flex items-center gap-2 p-2 mt-2 group hover:bg-white/50 hover:text-slate-800 rounded-lg transition">
+            <div class="w-5 h-5">
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+            Kategori
           </a>
         </nav>
       </div>
 
       <div class="mb-2">
-        <a href="admin_pengaturan.html" class="flex items-center gap-2 p-2">
-          <div class="w-5 h-5">
-            <i class="fa-solid fa-gear"></i>
-          </div>
-          Pengaturan
-        </a>
         <a href="#" class="flex items-center gap-2 p-2 mt-2">
           <div class="w-5 h-5">
             <i class="fa-solid fa-right-from-bracket"></i>   
@@ -72,60 +78,21 @@
 
       <main class="p-4 overflow-y-auto flex-1">
         <div class="grid grid-cols-1 mt-5">
-          <div class="bg-white border rounded-lg p-4 border-sky-800">                             
+          <div class="bg-slate-50 rounded-lg p-4 shadow-md ">                             
             <h2 class="font-bold text-xl mb-5 text-slate-950">Statistik</h2> 
-            <table class="w-full text-slate-800 border border-sky-800 rounded-lg overflow-hidden shadow-md">
-              <thead class="bg-sky-800 text-white">
-                <tr>  
-                  <th class="px-4 py-2 text-left">Nama Pelapor</th>
-                  <th class="px-4 py-2 text-left">Aduan</th>
-                  <th class="px-4 py-2 text-left">Tanggal</th>
-                  <th class="px-4 py-2 text-left">Status</th>
-                </tr>
-              </thead>
-              <tbody class="bg-white divide-y divide-slate-200">    
-                <tr>
-                  <td class="px-4 py-2">Budiono Siregar</td>
-                  <td class="px-4 py-2">Kapal Bocor Halus</td>
-                  <td class="px-4 py-2">2025-06-15</td>
-                  <td class="px-4 py-2 text-sm font-semibold text-yellow-600">Pending</td>
-                </tr>
-                <tr>
-                  <td class="px-4 py-2">Budi Speed</td>
-                  <td class="px-4 py-2">Ban Motor Kempes</td>
-                  <td class="px-4 py-2">2025-06-14</td>
-                  <td class="px-4 py-2 text-sm font-semibold text-blue-600">Diproses</td>
-                </tr>
-                <tr>
-                  <td class="px-4 py-2">Budi Yaping</td>
-                  <td class="px-4 py-2">Tetangga Marah-marah</td>
-                  <td class="px-4 py-2">2025-06-10</td>
-                  <td class="px-4 py-2 text-sm font-semibold text-green-600">Selesai</td>
-                </tr>
-              </tbody>
-            </table> 
             
             <div class="mt-8 space-y-4">
               <div class="rounded-lg p-4 bg-white text-slate-800 shadow-md">
+                <div class="w-full h-50 border border-sky-400 rounded-lg text-center mb-2"><p><span class="font-semibold">Lampiran:</span> Lampiran foto </p><br><br><br><br></div>
                 <p><span class="font-semibold">Nama Pelapor:</span> Budiono Siregar </p>
-                <p><span class="font-semibold">Aduan:</span> Kapal Bocor Halus </p>
-                <p><span class="font-semibold">Tanggal:</span> 2025-06-15 </p>
-              </div>
-            
-              <div class="rounded-lg p-4 bg-white text-slate-800 shadow-md">
-                <p><span class="font-semibold">Nama Pelapor:</span> Budi Speed </p>
-                <p><span class="font-semibold">Aduan:</span> Ban Motor Kempes </p>
+                <p><span class="font-semibold">Nomor Hp:</span> 0881-0234-5678 </p>
+                <p><span class="font-semibold">Judul Aduan:</span> Kapal Bocor Halus </p>
+                <p><span class="font-semibold">Aduan:</span> Kapal mogok di perairan jawa barat </p>
                 <p><span class="font-semibold">Tanggal:</span> 2025-06-14 </p>
-              </div>
-            
-              <div class="rounded-lg p-4 bg-white text-slate-800 shadow-md">
-                <p><span class="font-semibold">Nama Pelapor:</span> Budi Yaping </p>
-                <p><span class="font-semibold">Aduan:</span> Tetangga Marah-marah </p>
-                <p><span class="font-semibold">Tanggal:</span> 2025-06-10 </p>
               </div>
             </div>
             
-            <div class="flex gap-4 w-full mt-8">
+            <div class="flex gap-4 w-full my-8">
               <button type="submit" class="bg-sky-600 hover:bg-sky-700 rounded-lg flex-1 h-10 text-center text-white">Pending</button>
               <button type="submit" class="bg-sky-600 hover:bg-sky-700 rounded-lg flex-1 h-10 text-center text-white">Diproses</button>
               <button type="submit" class="bg-sky-600 hover:bg-sky-700 rounded-lg flex-1 h-10 text-center text-white">Selesai</button>
