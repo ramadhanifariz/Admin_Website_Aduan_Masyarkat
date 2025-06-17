@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin_Beranda</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="css/output.css" rel="stylesheet">
 </head>
 <body class="bg-white text-slate-50">
@@ -17,35 +16,35 @@
 
                 <nav class="mt-4">
                   <a href="admin_beranda.html" class="flex items-center gap-2 p-2 rounded-lg bg-white text-gray-800 font-inter font-semibold">   
-                    <div>
-                        <img src="../asset/beranda.png" alt="beranda" class="w-6 h-6">
+                    <div class="w-5 h-5">
+                      <i class="fas fa-home"></i>
                     </div>                
                     Beranda
                   </a>
                   <a href="admin_pengguna.html" class="flex items-center gap-2 p-2 mt-2 group hover:bg-white/50 hover:text-gray-800 rounded-lg transition">
-                    <div>
-                        <img src="../asset/pengguna.png" alt="pengguna" class="w-6 h-6 filter invert brightness-0 group-hover:invert-0 group-hover:brightness-100 transition-all">
+                    <div class="w-5 h-5">
+                      <i class="fa-solid fa-user"></i> 
                     </div> 
                     Pengguna
                   </a>
                   <a href="admin_postingan.html" class="flex items-center gap-2 p-2 mt-2 group hover:bg-white/50 hover:text-gray-800 rounded-lg transition">
-                    <div>
-                      <img src="../asset/kirim.png" alt="postingan" class="w-6 h-6 filter invert brightness-0 group-hover:invert-0 group-hover:brightness-100 transition-all">
+                    <div class="w-5 h-5">
+                      <i class="fa-solid fa-paper-plane"></i>
                     </div> 
                     Postingan
-                  </a>                                
+                  </a>                             
                 </nav>
             </div>
             <div class="mb-2">
                   <a href="admin_pengaturan.html" class="flex items-center gap-2 p-2 group hover:bg-white/50 hover:text-gray-800 rounded-lg transition">
-                    <div>
-                        <img src="../asset/pengaturan.png" alt="pengaturan" class="w-6 h-6 filter invert brightness-0 group-hover:invert-0 group-hover:brightness-100 transition-all">
+                    <div class="w-5 h-5">
+                      <i class="fa-solid fa-gear"></i>
                     </div> 
                     Pengaturan
                   </a>
                   <a href="admin_login.html" class="flex items-center gap-2 p-2 mt-2 group hover:bg-white/50 hover:text-gray-800 rounded-lg transition">
-                    <div>
-                        <img src="../asset/keluar.png" alt="keluar" class="w-6 h-6 filter invert brightness-0 group-hover:invert-0 group-hover:brightness-100 transition-all">   
+                    <div class="w-5 h-5">
+                      <i class="fa-solid fa-right-from-bracket"></i> 
                     </div> 
                     Keluar
                   </a>
@@ -53,11 +52,7 @@
         </aside>
 
         <main class="flex-1 bg-white p-4">
-            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
-              <div class="relative w-full sm:w-1/2">
-                <img src="../asset/pencarian.png" alt="cari" class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5">
-                <input type="text" placeholder="Cari disini . . . ."  class="w-1/2 p-1 pl-10 rounded-full bg-sky-200 placeholder-slate-950 focus:outline-none">
-              </div>
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2 md:justify-end">
               <div class="flex items-center gap-2">
                 <button class="p-1 rounded-full border-1 border-slate-950">
                   <img src="../asset/peringatan.png" alt="peringatan" class="w-6 h-6">
@@ -105,5 +100,6 @@
               </div>        
         </main>
     </div>
+    <script src="https://kit.fontawesome.com/9b8f32c598.js" crossorigin="anonymous"></script>
 </body>
 </html>
